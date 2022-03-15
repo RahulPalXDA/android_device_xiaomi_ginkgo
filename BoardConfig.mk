@@ -23,7 +23,7 @@
 #
 
 # Inherit from sm6125-common
--include device/xiaomi/sm6125-common/BoardConfigCommon.mk
+include device/xiaomi/sm6125-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/ginkgo
 
@@ -59,4 +59,4 @@ VENDOR_SECURITY_PATCH := 2020-07-01
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit the proprietary files
--include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
+include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
