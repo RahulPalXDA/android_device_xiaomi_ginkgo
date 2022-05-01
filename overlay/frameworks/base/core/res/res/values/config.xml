@@ -135,4 +135,8 @@
         <item>com.android.messaging</item>
         <item>com.google.android.apps.messaging</item>
     </string-array>
+
+    <!-- Display low battery warning when battery level dips to this value -->
+    <integer name="config_lowBatteryWarningLevel">20</integer>
+
 </resources>
