@@ -12,6 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/RahulPalXDA/LineageOS_OTA/{device}/lineage-18.1.json</string>
-    <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/RahulPalXDA/LineageOS_OTA/{device}/changelog.txt</string>
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/RahulPalXDA/LineageOS_OTA/ginkgo/lineage-18.1.json</string>
+    <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/RahulPalXDA/LineageOS_OTA/ginkgo/changelog.txt</string>
 </resources>
