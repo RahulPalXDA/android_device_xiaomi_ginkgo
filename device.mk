@@ -42,7 +42,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    PrebuiltGCamGO \
+    GCamGOPrebuilt \
     libstdc++.vendor
 
 # Input
