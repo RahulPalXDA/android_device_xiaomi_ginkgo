@@ -67,5 +67,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/ginkgo/ginkgo-vendor.mk)
