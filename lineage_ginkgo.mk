@@ -34,8 +34,3 @@ PRODUCT_MODEL := Redmi Note 8
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_VENDOR_PRODUCT_NAME := ginkgo
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="ginkgo-user 10 QKQ1.200114.002 20.7.9 release-keys "
-
-BUILD_FINGERPRINT := xiaomi/ginkgo/ginkgo:10/QKQ1.200114.002/20.7.9:user/release-keys
