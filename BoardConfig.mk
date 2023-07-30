@@ -41,6 +41,7 @@ TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/ginkgo-perf_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.android_dt_dir=/non-existent
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/4744000.sdhci
 
 # Partitions
